@@ -1,0 +1,56 @@
+body {
+    background-image: url('E:\Documents\innteractionn design hw\wt coding -II\assets\Asset 1.png');
+    background-size: cover;
+    width: 100vw;
+
+    height:100vh;
+    position:absolute;
+    top: 0px;
+   left: 0px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+header {
+    background-color: #ffffff;
+    height: 60px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    float: left;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-links li a:hover {
+    color: #ff0000;
+}
+
+.nav-links .active a {
+    color: #ff0000;
+}
